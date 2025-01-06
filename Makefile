@@ -1,9 +1,7 @@
-FILES= *.py  \
-	   *.txt \
-	   tests/test_customized_cases.py
+FILES= auto_diff.py logistic_regression.py
 
-handin.tar: $(FILES)
-	tar cvf handin.tar $(FILES)
+handin.zip: $(FILES)
+	zip handin.zip $(FILES)
 
 clean:
-	rm -f *~ handin.tar
+	rm -f *~ handin.zip

@@ -125,4 +125,3 @@ def sgd_epoch(
         The average training loss of this epoch.
     """
     """TODO: Your code here"""
-d
