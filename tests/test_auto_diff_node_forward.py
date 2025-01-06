@@ -1,6 +1,5 @@
 import unittest
 from parameterized import parameterized
-from gradescope_utils.autograder_utils.decorators import weight
 
 from typing import List
 import numpy as np
